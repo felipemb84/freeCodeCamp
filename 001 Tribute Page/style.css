@@ -1,0 +1,41 @@
+html, body {
+	font-family: Helvetica, Arial;
+	text-align: center;
+	background-color: silver;
+	padding: 10px 10px 10px 10px;
+}
+
+#title {
+	text-align: right;
+	text-shadow: gray 0 4px 4px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: right;
+}
+
+p {
+	text-align: justify;
+}
+
+hr {
+	background-color: black;
+	border: 2px solid black;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: auto;
+}
+	
+#img-div {
+	width: 100%;
+}
+
+#img-caption {
+	text-align: auto;
+	margin-top: 0;
+}

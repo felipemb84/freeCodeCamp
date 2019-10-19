@@ -1,0 +1,39 @@
+body {
+	background-color: #C1CDCD;
+	text-align: center;
+	font-family: Helvetica;
+	min-width: 320px;
+}
+
+input:invalid {
+	border: 2px dashed black;
+}
+
+input:valid {
+	border: 1px solid green;
+}
+
+form {
+	margin: auto;
+	background-color: white;
+	width: 75%;
+	max-width: 900px;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+#row {
+	display: inline-block;
+
+}
+
+#labels {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	vertical-align: top;
+}
+
+#blank-space {
+	display: inline-block;
+}
