@@ -7,24 +7,24 @@
 </head>
 <body>
 
-<nav id="nav-bar">
+<nav id="navbar">
 	<header>
 		<h2>Python a overview</h2>
 	</header>
-	<ul>
+	<ul class="list_nav">
 		<li><a class="nav-link" href="#section_history">History</a></li>
 		<li><a class="nav-link" href="#section_features">Features</a></li>
 		<li><a class="nav-link" href="#section_syntax">Syntax</a></li>
-			<ul>
-				<li><a class="nav-link" href="#sub_indentation">Indentation</a></li>
-				<li><a class="nav-link" href="#sub_statements">Statements</a></li>
-				<li><a class="nav-link" href="#sub_methods">Methods</a></li>
-				<li><a class="nav-link" href="#sub_typing">Typing</a></li>
-				<li><a class="nav-link" href="#sub_mathematics">Mathematics</a></li>
-			</ul>
+		<!-- SUB-ITEM -->
+		<li><a class="nav-link1" href="#sub_indentation">Indentation</a></li>
+		<li><a class="nav-link1" href="#sub_statements">Statements</a></li>
+		<li><a class="nav-link1" href="#sub_methods">Methods</a></li>
+		<li><a class="nav-link1" href="#sub_typing">Typing</a></li>
+		<li><a class="nav-link1" href="#sub_mathematics">Mathematics</a></li>
+		<!-- END SUB-ITEM -->
 		<li><a class="nav-link" href="#section_programming_examples">Programming Examples</a></li>
 		<li><a class="nav-link" href="#section_libraries">Libraries</a></li>
-		<li><a class="nav-link" href="section_reference">Reference</a></li>
+		<li><a class="nav-link" href="#section_reference">Reference</a></li>
 	</ul>
 </nav>
 
@@ -64,7 +64,7 @@
 			<h3 id="sub_indentation">Indentation</h3>
 			<p>Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents the program's semantic structure. This feature is also sometimes termed the off-side rule. The enforcement of indentation in Python makes the code look neat and clean. This results into Python programs that look similar and consistent.</p>
 			<h3 id="sub_statements">Statements</h3>
-			<ul>
+			<ul id="list_code">
 				<li><code>assigment (statement)</code></li>
 				<li><code>if (statement)</code></li>
 				<li><code>for (statement)</code></li>
@@ -72,9 +72,9 @@
 				<li><code>try (statement)</code></li>
 				<li><code>raise (statement)</code></li>
 				<li><code>class (statement)</code></li>
-				<li> <code>def (statement)</code></li>
-				<li> <code>with (statement)</code></li>
-				<li> <code>pass (statement)</code></li>
+				<li><code>def (statement)</code></li>
+				<li><code>with (statement)</code></li>
+				<li><code>pass (statement)</code></li>
 				<li><code>assert (statement)</code></li>
 				<li><code>yield (statement)</code></li>
 				<li><code>import (statement)</code></li>
@@ -86,7 +86,7 @@
 			<p>Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.</p>
 			<p>Python allows programmers to define their own types using classes, which are most often used for object-oriented programming. New instances of classes are constructed by calling the class, for example,<code>SpamClass()</code>or<code>EggsClass()</code>and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection.</p>
 			<h3 id="sub_mathematics">Mathematics</h3>
-			<p>Python has the usual symbols for arithmetic operators (+, -, *, /), and the remainder operator % (where the remainder can be negative)<br><code>4%-3 == -2</code><br>It also has ** for exponentiation as in the C language,<br><code>5**3 == 125</code> and <code>9**0.5 == 3.0</code> <br>A new matrix multiply @ operator is included in version 3.5 I.e. all these operators work as in traditional math; with same precedence rules, the operators infix (or - can additionally be unary). Additionally, it has a unary operator (~), which essentially inverts all the bits of its one argument. For integers, this means <br><code>~x=-x-1</code><br>Other operators include bitwise shift operators: <code>x << y</code>which shifts x to the left y places, <code>x*(2**y)</code>and <code>x >> y</code>which shifts x to the right y places, the same as <code>x//(2**y)</code>.</p>
+			<p>Python has the usual symbols for arithmetic operators (+, -, *, /), and the remainder operator % (where the remainder can be negative) <code>4%-3 == -2</code> It also has ** for exponentiation as in the C language <code>5**3 == 125</code> and <code>9**0.5 == 3.0</code> A new matrix multiply @ operator is included in version 3.5 I.e. all these operators work as in traditional math; with same precedence rules, the operators infix (or - can additionally be unary). Additionally, it has a unary operator (~), which essentially inverts all the bits of its one argument. For integers, this means <code>~x=-x-1</code> Other operators include bitwise shift operators: <code>x << y</code>which shifts x to the left y places, <code>x*(2**y)</code>and <code>x >> y</code>which shifts x to the right y places, the same as <code>x//(2**y)</code></p>
 		</article>	
 	</section>
 	

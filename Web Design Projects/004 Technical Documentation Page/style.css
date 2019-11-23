@@ -1,0 +1,145 @@
+html {
+	min-width: 1024px;
+	background-color: rgb(235, 235, 235);
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5;
+}
+
+#list_code {
+	list-style: none;
+}
+
+.list_nav {
+	list-style: none;
+}
+
+.nav-link {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 280px;
+}
+
+.nav-link1 {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	padding-left: 10px;
+	width: 250px;
+	font-size: .75rem;
+}
+
+.list_nav a {
+	text-decoration: none;
+	color: black;
+	line-height: 1.5;
+	display: block;
+}
+
+#nav-bar {
+	position: fixed;
+	min-width: 290px;
+	top: 25px;
+	left: 0px;
+	width: 300px;
+	height: 100%;
+}
+
+#nav-bar h2 {
+	margin-left: 40px;
+}
+
+#main-doc {
+	background-color: white;
+	position: absolute;
+	margin-left: 310px;
+	padding: 20px;
+	text-align: justify;
+}
+
+code {
+	display: block;
+	text-align: left;
+	white-space: pre;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 2;
+	background-color: rgba(150, 150, 150, 0.4);
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+	html {
+		min-width: 500px;
+		font-size: .9rem;
+		margin: auto;
+	}
+
+	.list_nav {
+		display: inline-grid;
+  		grid-gap: 1em;
+  		align-items: center;
+  		text-align: left;
+  		line-height: 1;
+		z-index: 1;
+	}
+
+	.nav-link {
+		padding: -10px;
+		margin-bottom: -10px;
+		width: 430px;
+	}
+
+	.nav-link1 {
+		padding: -10px;
+		margin-bottom: -10px;
+		margin-left: 0px;
+		padding-left: 5px;
+		width: 430px;
+	}
+
+	#nav-bar {
+		position: absolute;
+		top: 5px;
+		left: -22px;
+		width: 100%;
+		max-height: 200px;
+		border-bottom: 2px solid;
+		overflow: auto;
+	}
+
+	#main-doc {
+		position: relative;
+		margin-top: 220px;
+		margin-left: 10px;
+		padding-top: 25px;
+		padding: 20px;
+		width: 400px;
+		text-align: justify;
+	}
+
+	#nav-bar h2 {
+		margin-left: 40px;
+	}
+
+	code {
+		display: block;
+		text-align: left;
+		white-space: center;
+		position: relative;
+		word-break: normal;
+		word-wrap: break-word;
+		line-height: 2;
+		background-color: rgba(150, 150, 150, 0.4);
+		padding: 5px;
+		margin: 10px;
+		border-radius: 5px;
+}
+}
+
+
