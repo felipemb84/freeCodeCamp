@@ -1,0 +1,7 @@
+/*DOŃT FORGET THE MOBILE MEDIA QUERY*/
+
+body {
+	font: bold 1em Quicksand, Verdana, sans-serif;
+	background-color: white;
+	line-height: 1.5;
+};
