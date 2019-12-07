@@ -1,49 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>Personal Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"/>
 </head>
 
 <body>
 
+<header>
 <!--NAVBAR WITH LINKS TO NAVIGATE TO SECTIONS OF THE SITE AND ALWAYS ON TOP-->
-<nav id="navbar">
-	<ul id="menu-bar">
-		<li><a href="#about-me" class="navbar-link">ABOUT ME</a></li>
-		<li><a href="#projects" class="navbar-link">PROJECTS</a></li>
-		<li><a href="#contacts" class="navbar-link">CONTACTS</a></li>
-	</ul>
-</nav>
+	<nav id="navbar">
+		<ul id="menu-bar">
+			<li><a href="#welcome-section" class="navbar-link">HOME</a></li>
+			<li><a href="#about-me" class="navbar-link">ABOUT ME</a></li>
+			<li><a href="#projects" class="navbar-link">PROJECTS</a></li>
+			<li><a href="#contacts" class="navbar-link">CONTACTS</a></li>
+		</ul>
+	</nav>
+</header>
 <!--END OF NAVBAR-->
 
 <!--HEADER (HEIGHT SHOULD BE EQUAL TO THE HEIGHT OF THE VIEWPORT)-->
-<section id="welcome-section">
-	<h1 id="salut-title">Hello! My name is Felipe Mendes</h1>
+<section id="welcome-section" class="welcome-section">
+	<h1 id="salut-title">Oh Hey and Welcome! I am Felipe</h1>
 	<p id="salut-paragraph">Architect and Web Developer</p>
 </section>
 <!--END OF HEADER-->
 
 <!--SECTION ABOUT ME-->
-<section id="about-me">
-	<a href="#" id="profile-link">freeCodeCamp</a>
+<section id="about-me" class="about-me">
+	<h2 id="title-section-aboutme">Small Bio</h2>
+	<p id="bio">I am a graduated Architect from Brazil that was developing a personal project and fell in love with coding n a way that decide to chance his career and be a Web Developer!</p>
 </section>
 <!--END OF ABOUT ME-->
 
 <!--SECTION PROJECTS-->
-<section id="projects">
+<section id="projects" class="projects-section">
 	<div class="project-tile">
-		<a href="#" class="project-link"></a>
+		<h2 class="title-section-projects">What I create so far...</h2>
+		
+		<div class="projects-grid">
+			<a href="https://codepen.io/felipemb84/pen/ZZVwwY" class="project project-link" target="_blank">
+				<img src="‪#" alt="Tribute Page" class="projects-img" />
+				<p class="project-title"><span class="code">&lt</span>Tribute Page<span class="code">&#47;&gt;</span></p>
+			</a>
+
+			<a href="https://codepen.io/felipemb84/pen/RmoJLY" class="project project-link" target="_blank">
+				<img src="#" alt="Survey Form" class="project-img" />
+				<p class="project-title"><span class="code">&lt</span>Survey Form<span class="code">&#47;&gt;</span></p>
+			</a>
+		
+			<a href="https://codepen.io/felipemb84/pen/MWgLgbJ" class="project project-link" target="_blank">
+				<img src="#" alt="Product Landing Page" class="projects-img" />
+				<p class="project-title"><span class="code">&lt</span>Product Landing Page<span class="code">&#47;&gt;</span></p>
+			</a>
+		
+			<a href="https://codepen.io/felipemb84/pen/NWWmzwR" class="project project-link" target="_blank">
+				<img src="‪#‬" alt="Technical Documentation" class="projects-img" />
+				<p class="project-title"><span class="code">&lt</span>Technical Documentation Page<span class="code">&#47;&gt;</span></p>
+			</a>
+		</div>
+		
 	</div>
 </section>
 <!--END OF PROJECTS-->
 
 <!--SECTION CONTACTS-->
-<section id="contacts">
-
+<section id="contacts" class="contact-section">
+	<div class="title-sections">
+		<h2 class="title-section-contacts">You can find me here too...</h2>
+		<div class="contact-links">
+			<a href="#" class="contact-details">
+				<i class="fab fa-twitter fa-2x">Twitter</i>
+			</a>
+			<a href="#" class="contact-details">
+				<i class="fab fa-instagram fa-2x">Instagram</i>
+			</a>
+			<a href="#" class="contact-details">
+				<i class="fab fa-github fa-2x">Git</i>
+			</a>
+		</div>
+	</div>
 </section>
 <!--END OF CONTACTS-->
 
+<footer>
+	<p class="footer">**This is a fake portfolio. Just a exercise for a online course</p>
+	<p class="footer">&copy; Copyright 2019; Create for <a href="https://www.freecodecamp.org/felipemb" id="profile-link">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+	</p>
+	
+</footer>
 </body>
 </html>
